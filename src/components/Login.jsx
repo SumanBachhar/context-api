@@ -38,6 +38,7 @@ const Login = () => {
           placeholder="Password"
           onChange={passwordHandler}
         />
+        <br />
         <button type="submit">Submit</button>
       </form>
     </>
