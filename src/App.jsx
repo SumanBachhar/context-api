@@ -1,5 +1,13 @@
+import Login from "./components/Login";
+import Profile from "./components/Profile";
+
 const App = () => {
-  return <>App</>;
+  return (
+    <>
+      <Login />
+      <Profile />
+    </>
+  );
 };
 
 export default App;
